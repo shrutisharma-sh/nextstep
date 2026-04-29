@@ -1,0 +1,16 @@
+{
+  "motivated": [
+    "Great motivation. Focus on hands-on projects and consistent learning.",
+    "You are on the right track. Build real-world projects to improve faster."
+  ],
+
+  "frustrated": [
+    "Start small and focus on one skill at a time.",
+    "Learning DevOps can feel overwhelming initially. Progress step-by-step."
+  ],
+
+  "neutral": [
+    "Explore the roadmap carefully and practice consistently.",
+    "Focus on building strong fundamentals before advanced tools."
+  ]
+}

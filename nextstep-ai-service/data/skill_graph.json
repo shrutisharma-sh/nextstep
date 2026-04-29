@@ -1,0 +1,59 @@
+{
+  "devops": {
+    "nodes": [
+      { "id": "Linux" },
+      { "id": "Networking" },
+      { "id": "Docker" },
+      { "id": "Kubernetes" },
+      { "id": "CI/CD" },
+      { "id": "AWS" }
+    ],
+
+    "links": [
+      {
+        "source": "Linux",
+        "target": "Docker"
+      },
+      {
+        "source": "Networking",
+        "target": "Docker"
+      },
+      {
+        "source": "Docker",
+        "target": "Kubernetes"
+      },
+      {
+        "source": "Kubernetes",
+        "target": "CI/CD"
+      },
+      {
+        "source": "CI/CD",
+        "target": "AWS"
+      }
+    ]
+  },
+
+  "backend": {
+    "nodes": [
+      { "id": "Java" },
+      { "id": "Spring Boot" },
+      { "id": "REST API" },
+      { "id": "MySQL" }
+    ],
+
+    "links": [
+      {
+        "source": "Java",
+        "target": "Spring Boot"
+      },
+      {
+        "source": "Spring Boot",
+        "target": "REST API"
+      },
+      {
+        "source": "REST API",
+        "target": "MySQL"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "devops": {
+    "roadmap": [
+      "Learn Linux",
+      "Learn Networking",
+      "Learn Docker",
+      "Learn Kubernetes",
+      "Learn CI/CD",
+      "Learn AWS"
+    ],
+    "skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "AWS"
+    ]
+  },
+
+  "backend": {
+    "roadmap": [
+      "Learn Java",
+      "Learn Spring Boot",
+      "Learn REST APIs",
+      "Learn Databases",
+      "Learn Security"
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "REST API"
+    ]
+  }
+}

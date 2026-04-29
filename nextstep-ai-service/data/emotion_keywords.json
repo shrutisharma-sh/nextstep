@@ -1,0 +1,26 @@
+{
+  "motivated": [
+    "want",
+    "excited",
+    "motivated",
+    "love",
+    "interested",
+    "passionate",
+    "become"
+  ],
+
+  "frustrated": [
+    "confused",
+    "overwhelmed",
+    "lost",
+    "difficult",
+    "frustrated"
+  ],
+
+  "neutral": [
+    "tell me",
+    "explain",
+    "guide",
+    "roadmap"
+  ]
+}

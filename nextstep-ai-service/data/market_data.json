@@ -1,0 +1,23 @@
+{
+  "devops": {
+    "salary": "8-20 LPA",
+    "demand": "High",
+    "companies": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Infosys"
+    ]
+  },
+
+  "backend": {
+    "salary": "6-18 LPA",
+    "demand": "High",
+    "companies": [
+      "Uber",
+      "Paytm",
+      "Flipkart",
+      "TCS"
+    ]
+  }
+}

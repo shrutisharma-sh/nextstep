@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from services.emotion_service import detect_emotion
 from services.roadmap_service import get_career_data
@@ -6,9 +7,16 @@ from services.market_service import get_market_insights
 from services.guidance_service import generate_guidance
 from services.graph_service import get_learning_path
 import json
+
 app = FastAPI()
 
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class CareerRequest(BaseModel):
@@ -24,7 +32,6 @@ def home():
 
 with open("data/roadmap.json", "r") as file:
     roadmap_data = json.load(file) 
-
 
 
 with open("data/skill_graph.json", "r") as file:
